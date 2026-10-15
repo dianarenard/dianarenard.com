@@ -1,0 +1,32 @@
+:root{--wine:#150D10;--ink:#22161A;--crimson:#C0122C;--rose:#FF5A73;--lilac:#C9A7F5;--lilac2:#EFE6FB;--cream:#FFFBF9;--paper:#FBF6F2;--blush:#F8EEF1;--muted:#6E6168;--line:#EADDE2}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Figtree',system-ui,sans-serif;color:var(--ink);background:var(--cream);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{display:block;max-width:100%}
+.wrap{max-width:1160px;margin:0 auto;padding:0 28px}
+.kicker{font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--crimson)}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:500;line-height:1.08;letter-spacing:-.01em}
+h1 em,h2 em{font-style:italic;color:var(--rose)}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:12px;padding:15px 24px;font-weight:700;font-size:16px;text-decoration:none;transition:transform .15s ease,background .15s ease;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.btn.primary{background:var(--crimson);color:#fff}
+.btn.primary:hover{background:#A50F26}
+.btn.ghost{border:1.5px solid rgba(255,255,255,.35);color:#fff}
+.btn.light{border:1.5px solid var(--line);color:var(--ink);background:#fff}
+nav{position:sticky;top:0;z-index:20;background:rgba(21,13,16,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.06)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-family:'Fraunces',serif;font-style:italic;font-weight:900;font-size:24px;color:var(--crimson);text-decoration:none}
+.links{display:flex;gap:28px;align-items:center}
+.links a{color:#D9C8CE;text-decoration:none;font-size:15px;font-weight:500}
+.links a:hover{color:#fff}
+.links .btn{padding:10px 16px;font-size:14px;color:#fff}
+footer{background:var(--wine);color:#BFAAB2;padding:40px 0;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+footer a{color:#D9C8CE;text-decoration:none;margin-left:18px}
+footer a:hover{color:#fff}
+.note{border:1.5px dashed #C9A7F5;background:#F7F2FE;border-radius:12px;padding:12px 16px;font-family:'Figtree',sans-serif;font-size:14px;line-height:1.5;color:#4B2E83}
+.note b{color:#2E1A55}
+@media (max-width:900px){.links a:not(.btn){display:none}}
+@media (max-width:560px){.wrap{padding:0 20px}footer a{margin:0 16px 0 0}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
