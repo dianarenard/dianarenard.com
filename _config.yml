@@ -1,0 +1,6 @@
+# GitHub Pages: keep project notes off the public site
+exclude:
+  - DESIGN.md
+  - README.md
+  - vercel.json
+  - .vercelignore
