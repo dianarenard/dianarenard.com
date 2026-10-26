@@ -129,8 +129,6 @@ section{padding:96px 0}
 .bioc{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px 22px 18px;position:relative}
 .bioc .kicker{margin-bottom:8px}
 .bioc p{font-size:15.5px;color:#3d2c33}
-.copy{margin-top:14px;font:inherit;font-size:14px;font-weight:700;color:var(--crimson);background:none;border:1px solid var(--line);border-radius:10px;padding:7px 12px;cursor:pointer}
-.copy:hover{border-color:var(--crimson)}
 .row{display:flex;gap:12px;flex-wrap:wrap}
 /* follow */
 /* on stage */
@@ -339,8 +337,8 @@ section{padding:96px 0}
     </div>
     <div class="recent"><b>Recently:</b> live demonstration of Mindologue at AI Salon Miami, Mana Tech Loft, August 2026.</div>
     <div class="bios">
-      <div class="bioc"><div class="kicker">Short bio</div><p id="bio1">Diana Renard is an engineer, an author and a serial founder. Her companies are Mindologue, an app that reflects on what your drawings express; Regime, health technology that starts from the female body; and NAPKIN Dating, the first-date app that reads a napkin drawing. She wrote Unfolding Your True Self and builds Regime and NAPKIN herself.</p><button class="copy" data-copy="bio1">Copy bio</button></div>
-      <div class="bioc"><div class="kicker">Full bio</div><p id="bio2">Diana Renard is the founder of Mindologue, Regime and NAPKIN Dating. She studied computer science at Siberian State Aerospace University in Krasnoyarsk, then psychology and art therapy, and is a certified art life coach. During a personal crisis, drawing became her way to understand her own emotions. That practice became her workbook, Unfolding Your True Self, and Mindologue, an app that helps people reflect on what their drawings may express. Regime applies the same thinking to the body: a health plan that adapts to a woman's hormones and life stage every day. NAPKIN Dating began on a first date, with a napkin drawing whose warning she ignored; the app invites a date to draw love on a napkin and shows who is sitting across the table. She designs and builds Regime and NAPKIN herself, and lives in Miami Beach.</p><button class="copy" data-copy="bio2">Copy bio</button></div>
+      <div class="bioc"><div class="kicker">Short bio</div><p id="bio1">Diana Renard is an engineer, an author and a serial founder. Her companies are Mindologue, an app that reflects on what your drawings express; Regime, health technology that starts from the female body; and NAPKIN Dating, the first-date app that reads a napkin drawing. She wrote Unfolding Your True Self and builds Regime and NAPKIN herself.</p></div>
+      <div class="bioc"><div class="kicker">Full bio</div><p id="bio2">Diana Renard is the founder of Mindologue, Regime and NAPKIN Dating. She studied computer science at Siberian State Aerospace University in Krasnoyarsk, then psychology and art therapy, and is a certified art life coach. During a personal crisis, drawing became her way to understand her own emotions. That practice became her workbook, Unfolding Your True Self, and Mindologue, an app that helps people reflect on what their drawings may express. Regime applies the same thinking to the body: a health plan that adapts to a woman's hormones and life stage every day. NAPKIN Dating began on a first date, with a napkin drawing whose warning she ignored; the app invites a date to draw love on a napkin and shows who is sitting across the table. She designs and builds Regime and NAPKIN herself, and lives in Miami Beach.</p></div>
     </div>
     <div class="row"><a class="btn primary" href="mailto:diana@mindologue.com?subject=Speaking%20or%20partnership">Email Diana</a><a class="btn light" href="images/diana.jpg" download>Download press photo</a></div>
   </div>
@@ -357,8 +355,5 @@ section{padding:96px 0}
 
 <footer><div class="wrap"><span>© 2026 Diana Renard</span><span><a href="/story">Profile</a><a href="https://regimelongevity.com/">Regime</a><a href="https://mindologue.com/">Mindologue</a><a href="https://napkin.dating/">NAPKIN</a><a href="https://www.instagram.com/diana_renard_official/">Instagram</a><a href="https://www.linkedin.com/in/dianarenard/">LinkedIn</a></span></div></footer>
 
-<script>
-document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var t=document.getElementById(b.dataset.copy).innerText;var done=function(){var o=b.textContent;b.textContent='Copied';setTimeout(function(){b.textContent=o},1600)};if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,done)}else{done()}})});
-</script>
 </body>
 </html>
