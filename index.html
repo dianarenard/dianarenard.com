@@ -11,7 +11,7 @@
 <link rel="canonical" href="https://dianarenard.com/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500;1,9..144,700;1,9..144,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500;1,9..144,700;1,9..144,900&family=Poppins:wght@400;500;600&family=Bodoni+Moda:opsz,wght@6..96,400&family=Libre+Bodoni:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <style>
 section{padding:96px 0}
@@ -65,22 +65,54 @@ section{padding:96px 0}
 .offer small{color:#BFAAB2;font-size:14px;line-height:1.45}
 .phone{justify-self:center;width:min(310px,100%);border-radius:44px;padding:12px;background:#0B0708;box-shadow:0 0 0 1px #3a2a30,0 40px 90px rgba(0,0,0,.5)}
 .phone img{border-radius:34px;width:100%}
-.napkin{margin:56px 0 0;grid-template-columns:.85fr 1.15fr}
-.napkin>div{order:2}
-.nap{justify-self:center;width:min(440px,100%);margin:0}
-.nap img{width:100%;height:auto;transform:rotate(-2deg)}
-.slip{position:relative;margin:-64px 0 0 auto;width:86%;background:#0B0708;border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:18px 22px 20px;box-shadow:0 24px 60px rgba(0,0,0,.45)}
-.slip .kicker{color:var(--lilac);font-size:11px}
-.slip .q{font-family:'Fraunces',serif;font-size:23px;line-height:1.25;color:#fff;margin:8px 0 8px}
-.slip .q em{font-style:italic;color:var(--rose)}
-.slip p{color:#CDB9C0;font-size:15px;line-height:1.5}
-.slip a{color:#fff;font-weight:700;text-underline-offset:3px;display:inline-block;padding:6px 0;margin:-6px 0}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.wc{border-radius:24px;padding:34px 32px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09)}
-.wc h3{font-size:30px;color:#fff;margin:10px 0 10px}
-.wc p{color:#CDB9C0}
-.wc .ctas{margin-top:22px}
-.wc .kicker{color:var(--lilac)}
+/* Mindologue, as on mindolog.com: airy white and periwinkle, navy Poppins, gradient pills */
+.mind{position:relative;overflow:hidden;display:grid;grid-template-columns:1fr 150px;gap:20px;align-items:end;border-radius:28px;padding:32px 30px 0;background:linear-gradient(160deg,#fff 0%,#f9fafe 45%,#e6ecff 100%);color:#1D264A;font-family:'Poppins',system-ui,sans-serif;box-shadow:0 8px 32px rgba(31,38,135,.15)}
+.mind-tx{align-self:start;padding-bottom:32px}
+.mind-brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:17px}
+.mind-brand img{border-radius:11px}
+.mind h3{font-family:'Poppins',sans-serif;font-weight:600;font-size:26px;line-height:1.2;letter-spacing:-.01em;margin:18px 0 10px}
+.mind p{font-size:15px;line-height:1.6;color:#4E5779}
+.mind-ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.mind-btn{display:inline-flex;align-items:center;min-height:48px;padding:0 26px;border-radius:999px;font-weight:500;font-size:15px;text-decoration:none;color:#fff;background:linear-gradient(135deg,#3D6FB4 0%,#7751EA 100%);box-shadow:0 10px 25px rgba(61,111,180,.3)}
+.mind-btn.ghost{color:#6440D8;background:#fff;border:2px solid #7751EA;box-shadow:0 4px 15px rgba(0,0,0,.05);font-weight:600}
+.mind-phone{width:150px;height:auto;align-self:end;margin-bottom:-60px}
+/* The book, as its cover: black and white, thin Bodoni capitals, square edges */
+.book{display:grid;grid-template-columns:170px 1fr;gap:26px;align-items:center;border-radius:4px;padding:30px;background:#000;color:#fff;border:1px solid #262626}
+.book-cover{width:170px;height:auto;box-shadow:0 18px 40px rgba(0,0,0,.6)}
+.book-over,.book-by{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#bdbdbd}
+.book h3{font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:27px;line-height:1.12;letter-spacing:.04em;text-transform:uppercase;color:#fff;margin:10px 0 8px}
+.book-by{letter-spacing:.24em;color:#e6e6e6}
+.book p:not(.book-over):not(.book-by){font-size:15px;line-height:1.6;color:#c4c4c4;margin-top:16px}
+.book-ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.book-btn{display:inline-flex;align-items:center;min-height:46px;padding:0 20px;font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:#000;background:#fff;border:1px solid #fff}
+.book-btn.ghost{color:#fff;background:transparent;border-color:#8a8a8a}
+/* NAPKIN, as on napkin.dating: ink black, ivory Libre Bodoni, one lipstick red, the real napkin */
+.nk{margin-top:56px;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;border-radius:28px;padding:56px;background:#0C0B0B;color:#EEE7DC;border:1px solid #2E2929;font-family:'Figtree',system-ui,sans-serif}
+.nk-mark{font-family:'Libre Bodoni',Didot,serif;font-weight:600;font-size:26px;letter-spacing:.02em;line-height:1;color:#EEE7DC}
+.nk-kicker{display:flex;align-items:flex-start;gap:10px;margin-top:26px;font-size:15px;font-weight:600;color:#A69E94}
+.nk-kicker:before{content:'';flex:none;margin-top:8px;width:8px;height:8px;border-radius:50%;background:#9E1F33;box-shadow:0 0 0 4px rgba(158,31,51,.28)}
+.nk h3{font-family:'Libre Bodoni',Didot,serif;font-weight:600;font-size:clamp(40px,4.4vw,58px);line-height:1;letter-spacing:-.015em;color:#EEE7DC;margin:14px 0 18px}
+.nk h3 em{display:block;font-weight:500;color:#CF6577}
+.nk-lede{font-size:18px;line-height:1.55;color:#DCD4C8;max-width:34ch}
+.nk-steps{list-style:none;margin:30px 0 0;padding:0;border-top:1px solid #2E2929}
+.nk-steps li{display:grid;grid-template-columns:34px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid #2E2929}
+.nk-steps b{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#9E1F33;color:#EEE7DC;font-weight:600;font-size:15px}
+.nk-steps span{font-size:14px;font-weight:600;color:#A69E94}
+.nk-steps h4{font-family:'Libre Bodoni',Didot,serif;font-weight:600;font-size:22px;line-height:1.15;margin:2px 0 4px;color:#EEE7DC}
+.nk-steps p{font-size:15.5px;line-height:1.5;color:#A69E94}
+.nk-cta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:28px}
+.nk-btn{display:inline-flex;align-items:center;min-height:54px;padding:0 26px;border-radius:999px;background:#9E1F33;color:#EEE7DC;font-weight:600;font-size:17px;text-decoration:none}
+.nk-btn:hover{background:#B22439}
+.nk-cta small{font-size:14px;color:#A69E94;max-width:22ch;line-height:1.45}
+.nk-fig{position:relative;margin:0;justify-self:center;width:min(440px,100%);padding-bottom:96px}
+.nk-fig img{width:100%;height:auto;transform:rotate(-3deg)}
+.nk-slip{position:absolute;left:-14px;bottom:0;width:min(72%,290px);background:#171414;border:1px solid #2E2929;border-radius:20px;padding:16px 18px 18px;box-shadow:0 30px 60px -20px #000;transform:rotate(1.5deg)}
+.nk-label{font-size:13px;font-weight:600;color:#A69E94}
+.nk-q{font-family:'Libre Bodoni',Didot,serif;font-weight:600;font-size:22px;line-height:1.15;color:#EEE7DC;margin:6px 0 8px}
+.nk-q em{display:block;font-weight:500;color:#CF6577}
+.nk-small{font-size:14px;line-height:1.5;color:#A69E94}
+.nk-small a{color:#EEE7DC;font-weight:600;text-underline-offset:3px}
 /* research */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .st{border-top:3px solid var(--crimson);padding-top:18px}
@@ -107,8 +139,8 @@ section{padding:96px 0}
 .follow .ctas{justify-content:center}
 @media (max-width:1000px){.proof .wrap{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:900px){
-  .hero .wrap,.regime,.two,.feature,.bios{grid-template-columns:1fr;gap:32px}
-  .napkin>div{order:0}
+  .hero .wrap,.regime,.two,.feature,.bios,.nk{grid-template-columns:1fr;gap:32px}
+  .nk{padding:40px 32px;gap:44px}
   .hero .wrap{padding-top:40px;padding-bottom:52px}
   .portrait{max-width:420px}
   .conv,.talks,.stats{grid-template-columns:1fr 1fr}
@@ -118,7 +150,15 @@ section{padding:96px 0}
 }
 @media (max-width:560px){
   .proof .wrap,.conv,.talks,.stats,.feat{grid-template-columns:1fr}
-  .wc{padding:28px 22px}
+  .mind{grid-template-columns:1fr;padding:28px 22px 0}
+  .mind-tx{padding-bottom:0}
+  .mind-phone{justify-self:center;width:170px;margin:0 0 -150px}
+  .book{grid-template-columns:1fr;padding:28px 22px}
+  .book-cover{width:160px}
+  .nk{padding:32px 22px;border-radius:24px}
+  .nk-cta small{max-width:none}
+  .nk-fig{padding-bottom:0}
+  .nk-slip{position:relative;left:auto;width:auto;margin:-48px 6px 0 18px}
 }
 </style>
 </head>
@@ -201,31 +241,48 @@ section{padding:96px 0}
       <div class="phone"><img src="images/regime-app.webp" alt="The Regime app showing today's plan"></div>
     </div>
     <div class="two">
-      <div class="wc"><div class="kicker">Mindologue</div><h3>For the feelings words can't reach.</h3><p>Photograph a drawing and receive a reflection on what it may be expressing, with journaling and guided meditation. Built on projective psychology and art therapy.</p><div class="ctas"><a class="btn primary" href="https://apps.apple.com/us/app/mindologue-emotional-insight/id6745147570">Get the app</a><a class="btn ghost" href="https://mindologue.com/">Learn more</a></div></div>
-      <div class="wc"><div class="kicker">The book</div><h3>Unfolding Your True Self</h3><p>A 30-day workbook of drawing exercises, born from her own recovery, to rebuild confidence and quiet negative self-talk.</p><div class="ctas"><a class="btn primary" href="https://www.amazon.com/dp/B0GTFG4XJ1">Order on Amazon</a><a class="btn ghost" href="/freepdf/">Free download</a></div></div>
-    </div>
-    <div class="regime napkin">
-      <div>
-        <div class="kicker" style="color:var(--lilac)"><span class="nw">NAPKIN Dating ·</span> <span class="nw">coming soon to iPhone</span></div>
-        <h3>Is this person <em class="nw">right for you?</em></h3>
-        <p class="lead">Ask your date to draw love on a napkin. NAPKIN reads the drawing and shows you who is sitting across the table.</p>
-        <div class="feat">
-          <div><b>One minute, one pen</b><span>Anyone can rehearse an answer. Nobody rehearses a drawing.</span></div>
-          <div><b>How they love</b><span>Leans secure, anxious or avoidant, with what to watch next.</span></div>
-          <div><b>Games for the next dates</b><span>Spin the bottle, draw side by side, answer out loud. NAPKIN listens.</span></div>
-          <div><b>A straight answer</b><span>After a few dates: continue, slow down or walk away, with the reasons.</span></div>
+      <article class="mind">
+        <div class="mind-tx">
+          <div class="mind-brand"><img src="images/mindologue-icon.webp" width="44" height="44" alt=""><span>Mindologue</span></div>
+          <h3>For the feelings words can't reach.</h3>
+          <p>Photograph a drawing and receive a reflection on what it may be expressing, with journaling and guided meditation. Built on projective psychology and art therapy.</p>
+          <div class="mind-ctas"><a class="mind-btn" href="https://apps.apple.com/us/app/mindologue-emotional-insight/id6745147570">Get the app</a><a class="mind-btn ghost" href="https://mindologue.com/">Learn more</a></div>
         </div>
-        <div class="offer"><a class="btn primary" href="https://napkin.dating/#join">Join the waitlist</a><small>Free to start.<br>One email on launch day, nothing else.</small></div>
+        <img class="mind-phone" src="images/mindologue-app.webp" width="415" height="856" loading="lazy" alt="The Mindologue app welcoming you, with its guide Mell-E">
+      </article>
+      <article class="book">
+        <img class="book-cover" src="images/book-cover.webp" width="520" height="642" loading="lazy" alt="The black and white cover of Unfolding Your True Self by Diana Renard">
+        <div class="book-tx">
+          <p class="book-over">A practical workbook</p>
+          <h3>Unfolding Your True Self</h3>
+          <p class="book-by">By Diana Renard</p>
+          <p>A 30-day workbook of drawing exercises, born from her own recovery, to rebuild confidence and quiet negative self-talk.</p>
+          <div class="book-ctas"><a class="book-btn" href="https://www.amazon.com/dp/B0GTFG4XJ1">Order on Amazon</a><a class="book-btn ghost" href="/freepdf/">Free download</a></div>
+        </div>
+      </article>
+    </div>
+    <article class="nk">
+      <div class="nk-tx">
+        <div class="nk-mark">NAPKIN</div>
+        <p class="nk-kicker">The first-date app, coming soon to iPhone</p>
+        <h3>Is this person <em>right for you?</em></h3>
+        <p class="nk-lede">Ask your date to draw love on a napkin. NAPKIN reads the drawing and shows you who is sitting across the table.</p>
+        <ol class="nk-steps">
+          <li><b>1</b><div><span>At the table</span><h4>Ask for the napkin</h4><p>NAPKIN gives you the line, so it feels like flirting. One minute, one pen.</p></div></li>
+          <li><b>2</b><div><span>On the way home</span><h4>Read who they are</h4><p>What the drawing shows, how they lean in love and what to watch next time.</p></div></li>
+          <li><b>3</b><div><span>After a few dates</span><h4>Get a straight answer</h4><p>Continue, slow down or walk away, with the reasons.</p></div></li>
+        </ol>
+        <div class="nk-cta"><a class="nk-btn" href="https://napkin.dating/#join">Join the waitlist</a><small>Free to start. One email on launch day, nothing else.</small></div>
       </div>
-      <figure class="nap">
+      <figure class="nk-fig">
         <img src="images/napkin.webp" width="900" height="900" loading="lazy" alt="The real paper napkin from Diana's first date: a grinning heart with eyes on stalks and the words I love you.">
-        <figcaption class="slip">
-          <div class="kicker">The napkin that started it</div>
-          <p class="q">"I had the answer on a napkin. <em class="nw">I didn't listen."</em></p>
-          <p>A first date, a charming man, one drawing. Everything it showed came true. <a href="https://napkin.dating/#letter-h">Read her letter</a></p>
+        <figcaption class="nk-slip">
+          <p class="nk-label">The napkin that started it</p>
+          <p class="nk-q">“I had the answer on a napkin. <em>I didn’t listen.”</em></p>
+          <p class="nk-small">A first date, a charming man, one drawing. Everything it showed came true. <a href="https://napkin.dating/#letter-h">Read her letter</a></p>
         </figcaption>
       </figure>
-    </div>
+    </article>
   </div>
 </section>
 
