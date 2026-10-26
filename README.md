@@ -7,11 +7,13 @@ Plain HTML and CSS, no build step.
 | Page | File |
 |---|---|
 | Home | `index.html` |
-| Profile article, "The body medicine measured last" | `story.html` (served at `/story`) |
+| Profile article, "Reading people" | `story.html` (served at `/story`) |
 | Free download of *Unfolding Your True Self* | `freepdf/index.html` (served at `/freepdf/`) |
 | Old `/about` link from Instagram | `about/index.html` forwards to the home page |
 
 Shared styles live in `styles.css`; images in `images/`.
+
+The site is Diana's own look (black and white, her photographs, Cormorant Garamond and Figtree). Each product card keeps its own brand: Mindologue (mindolog.com), the book (its cover), Regime (regimelongevity.com) and NAPKIN (napkin.dating). Before changing any page, run the audit in `~/.claude/skills/design-craft/references/ai-look.md`.
 
 ## Hosting
 
