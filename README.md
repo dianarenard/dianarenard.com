@@ -13,7 +13,7 @@ Plain HTML and CSS, no build step.
 
 Shared styles live in `styles.css`; images in `images/`.
 
-The site is Diana's own look (black and white, her photographs, Cormorant Garamond and Figtree). Each product card keeps its own brand: Mindologue (mindolog.com), the book (its cover), Regime (regimelongevity.com) and NAPKIN (napkin.dating). Before changing any page, run the audit in `~/.claude/skills/design-craft/references/ai-look.md`.
+The site is Diana's own look: deep wine, her red, white and blush, her photographs and her signature, in Cormorant Garamond and Figtree. Her products sit in one family of tiles: same shape, type and red buttons, while each tile's picture area keeps that product's colour, logo and real image (Mindologue periwinkle, the book's cover, Regime crimson, NAPKIN ink). Before changing any page, run the audit in `~/.claude/skills/design-craft/references/ai-look.md`.
 
 ## Hosting
 
