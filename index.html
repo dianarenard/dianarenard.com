@@ -133,6 +133,11 @@ section{padding:96px 0}
 .copy:hover{border-color:var(--crimson)}
 .row{display:flex;gap:12px;flex-wrap:wrap}
 /* follow */
+/* on stage */
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.gallery figure{margin:0}
+.gallery img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:22px;box-shadow:0 18px 44px rgba(21,13,16,.14)}
+.gallery figcaption{font-size:14px;color:var(--muted);margin-top:12px;line-height:1.45}
 .follow{background:var(--blush);text-align:center}
 .follow h2{font-size:clamp(32px,4vw,48px)}
 .follow p{color:#4c3a42;font-size:19px;margin:14px auto 30px;max-width:580px}
@@ -144,7 +149,8 @@ section{padding:96px 0}
   .hero .wrap{padding-top:40px;padding-bottom:52px}
   .portrait{max-width:420px}
   .conv,.talks,.stats{grid-template-columns:1fr 1fr}
-  .feature .ph{display:none}
+  .feature .ph{min-height:340px}
+  .gallery{grid-template-columns:1fr 1fr}
   .feature .tx{padding:32px 28px}
   section{padding:72px 0}
 }
@@ -164,14 +170,14 @@ section{padding:96px 0}
 </head>
 <body>
 
-<nav><div class="wrap"><a class="logo" href="#top">Diana Renard</a><div class="links"><a href="/story">Profile</a><a href="#convictions">Convictions</a><a href="#work">Work</a><a href="#speaking">Speaking</a><a class="btn primary" href="mailto:diana@mindologue.com">Email Diana</a></div></div></nav>
+<nav><div class="wrap"><a class="logo" href="#top">Diana Renard</a><div class="links"><a href="/story">Profile</a><a href="#convictions">Convictions</a><a href="#work">Work</a><a href="#stage">On stage</a><a href="#speaking">Speaking</a><a class="btn primary" href="mailto:diana@mindologue.com">Email Diana</a></div></div></nav>
 
 <header class="hero" id="top">
   <div class="wrap">
     <div>
-      <div class="kicker" style="color:var(--lilac)">Engineer · Founder of Regime, Mindologue and NAPKIN</div>
+      <div class="kicker" style="color:var(--lilac)">Engineer · Author · Founder of Regime, Mindologue and NAPKIN</div>
       <h1>Diana Renard builds apps that <em>read people.</em></h1>
-      <p class="sub">An engineer and an author, she has founded three companies in under two years. Each one reads what people find hard to put into words: a drawing, a first date, a body that changes every week.</p>
+      <p class="sub">Engineer, author and serial founder. In under two years she launched Mindologue on the App Store, published a book, built Regime and NAPKIN herself and took the stage at AI Salon Miami.</p>
       <div class="ctas">
         <a class="btn primary" href="/story">Read her story</a>
         <a class="btn ghost" href="#work">See what she built</a>
@@ -196,7 +202,7 @@ section{padding:96px 0}
       <div class="tx">
         <div class="kicker">The profile · 7 minute read</div>
         <h3>Reading <em>people</em></h3>
-        <p class="dk">A first date, a napkin and three companies in under two years: how an engineer from Siberian State Aerospace University came to build apps that read what people find hard to say.</p>
+        <p class="dk">A first date, a napkin and three companies in under two years. How an engineer from Siberian State Aerospace University became the rare founder who can read a drawing, write the book and build the app.</p>
         <p class="ex">Halfway through a first date, Diana Renard slid a paper napkin across the table and asked the man opposite to draw something. She read his drawing with Mindologue, and chose him anyway.</p>
         <span class="rd">Read the profile →</span>
       </div>
@@ -290,8 +296,8 @@ section{padding:96px 0}
   <div class="wrap">
     <div class="head">
       <div class="kicker">Her story in numbers</div>
-      <h2>Thirteen years from Krasnoyarsk to three companies.</h2>
-      <p>The milestones behind the work.</p>
+      <h2>Most founders build one company. <em style="color:var(--crimson)">She built three.</em></h2>
+      <p>Thirteen years from Krasnoyarsk to the App Store, with a book written on the way.</p>
     </div>
     <div class="stats">
       <div class="st"><b>2013</b><p>The year she began her engineering studies at Siberian State Aerospace University in Krasnoyarsk.</p><small>August 2013</small></div>
@@ -302,12 +308,28 @@ section{padding:96px 0}
   </div>
 </section>
 
+<section id="stage" style="padding-top:24px">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">On stage</div>
+      <h2>Diana, <em style="color:var(--crimson)">live.</em></h2>
+      <p>At AI Salon Miami she ran Mindologue live in front of a room of founders and researchers. Wherever she speaks, she brings the product and the story behind it.</p>
+    </div>
+    <div class="gallery">
+      <figure><img src="images/diana-on-stage.webp" width="900" height="1125" loading="lazy" alt="Diana Renard on stage at a podium, microphone in hand, presenting Mindologue"><figcaption>On stage at AI Salon Miami, August 2026</figcaption></figure>
+      <figure><img src="images/diana-mic.webp" width="800" height="1000" loading="lazy" alt="Diana Renard speaking into a microphone"><figcaption>Taking the mic, September 2026</figcaption></figure>
+      <figure><img src="images/diana-evening.webp" width="683" height="854" loading="lazy" alt="Diana Renard in a black dress at an evening event"><figcaption>Working the room, September 2026</figcaption></figure>
+      <figure><img src="images/diana-instagram.webp" width="800" height="1000" loading="lazy" alt="Diana Renard talking to camera for Instagram"><figcaption>On Instagram, where she shares the build</figcaption></figure>
+    </div>
+  </div>
+</section>
+
 <section id="speaking" style="padding-top:24px">
   <div class="wrap">
     <div class="head">
       <div class="kicker">Speaking and partnerships</div>
       <h2>Invite Diana to talk about <em style="color:var(--crimson)">apps that read people.</em></h2>
-      <p>For conferences, podcasts, panels and investors.</p>
+      <p>For conferences, podcasts, panels and investors. Expect the product running on stage and a story people remember.</p>
     </div>
     <div class="talks">
       <div class="talk"><h3>From breakdown to three companies</h3><p>How drawing rebuilt an engineer, and then became her products.</p></div>
@@ -317,7 +339,7 @@ section{padding:96px 0}
     </div>
     <div class="recent"><b>Recently:</b> live demonstration of Mindologue at AI Salon Miami, Mana Tech Loft, August 2026.</div>
     <div class="bios">
-      <div class="bioc"><div class="kicker">Short bio</div><p id="bio1">Diana Renard is an engineer, an author and the founder of three companies: Mindologue, an app that reflects on what your drawings express; Regime, health technology that starts from the female body; and NAPKIN Dating, the first-date app that reads a napkin drawing. She wrote Unfolding Your True Self.</p><button class="copy" data-copy="bio1">Copy bio</button></div>
+      <div class="bioc"><div class="kicker">Short bio</div><p id="bio1">Diana Renard is an engineer, an author and a serial founder. Her companies are Mindologue, an app that reflects on what your drawings express; Regime, health technology that starts from the female body; and NAPKIN Dating, the first-date app that reads a napkin drawing. She wrote Unfolding Your True Self and builds Regime and NAPKIN herself.</p><button class="copy" data-copy="bio1">Copy bio</button></div>
       <div class="bioc"><div class="kicker">Full bio</div><p id="bio2">Diana Renard is the founder of Mindologue, Regime and NAPKIN Dating. She studied computer science at Siberian State Aerospace University in Krasnoyarsk, then psychology and art therapy, and is a certified art life coach. During a personal crisis, drawing became her way to understand her own emotions. That practice became her workbook, Unfolding Your True Self, and Mindologue, an app that helps people reflect on what their drawings may express. Regime applies the same thinking to the body: a health plan that adapts to a woman's hormones and life stage every day. NAPKIN Dating began on a first date, with a napkin drawing whose warning she ignored; the app invites a date to draw love on a napkin and shows who is sitting across the table. She designs and builds Regime and NAPKIN herself, and lives in Miami Beach.</p><button class="copy" data-copy="bio2">Copy bio</button></div>
     </div>
     <div class="row"><a class="btn primary" href="mailto:diana@mindologue.com?subject=Speaking%20or%20partnership">Email Diana</a><a class="btn light" href="images/diana.jpg" download>Download press photo</a></div>
@@ -328,12 +350,12 @@ section{padding:96px 0}
   <div class="wrap">
     <div class="kicker">Follow Diana</div>
     <h2>Three companies, built in public.</h2>
-    <p>New products, talks and the days in between, on Instagram and LinkedIn.</p>
-    <div class="ctas"><a class="btn primary" href="https://www.instagram.com/diana_renard_vision/">Follow on Instagram</a><a class="btn light" href="https://www.linkedin.com/in/dianarenard/">Connect on LinkedIn</a></div>
+    <p>Behind the scenes with a founder who builds her own apps: new products, talks and the days in between.</p>
+    <div class="ctas"><a class="btn primary" href="https://www.instagram.com/diana_renard_official/">Follow on Instagram</a><a class="btn light" href="https://www.linkedin.com/in/dianarenard/">Connect on LinkedIn</a></div>
   </div>
 </section>
 
-<footer><div class="wrap"><span>© 2026 Diana Renard</span><span><a href="/story">Profile</a><a href="https://regimelongevity.com/">Regime</a><a href="https://mindologue.com/">Mindologue</a><a href="https://napkin.dating/">NAPKIN</a><a href="https://www.instagram.com/diana_renard_vision/">Instagram</a><a href="https://www.linkedin.com/in/dianarenard/">LinkedIn</a></span></div></footer>
+<footer><div class="wrap"><span>© 2026 Diana Renard</span><span><a href="/story">Profile</a><a href="https://regimelongevity.com/">Regime</a><a href="https://mindologue.com/">Mindologue</a><a href="https://napkin.dating/">NAPKIN</a><a href="https://www.instagram.com/diana_renard_official/">Instagram</a><a href="https://www.linkedin.com/in/dianarenard/">LinkedIn</a></span></div></footer>
 
 <script>
 document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var t=document.getElementById(b.dataset.copy).innerText;var done=function(){var o=b.textContent;b.textContent='Copied';setTimeout(function(){b.textContent=o},1600)};if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,done)}else{done()}})});
