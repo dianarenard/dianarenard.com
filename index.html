@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Diana Renard · Engineer, founder of Regime and Mindologue</title>
-<meta name="description" content="Diana Renard is an engineer and the founder of Regime and Mindologue, building technology for the body and mind women actually have.">
+<title>Diana Renard · Engineer, founder of Regime, Mindologue and NAPKIN</title>
+<meta name="description" content="Diana Renard is an engineer and the founder of Regime, Mindologue and NAPKIN, building technology for the body, the mind and the first date.">
 <meta property="og:title" content="Diana Renard">
 <meta property="og:description" content="A woman's body changes every week. Medicine was built for one that doesn't.">
 <meta property="og:image" content="https://dianarenard.com/images/diana.jpg">
@@ -28,7 +28,7 @@ section{padding:96px 0}
 .portrait{border-radius:28px;overflow:hidden;aspect-ratio:4/5;box-shadow:0 30px 80px rgba(0,0,0,.45)}
 .portrait img{width:100%;height:100%;object-fit:cover;object-position:center 18%}
 .proof{border-top:1px solid rgba(255,255,255,.08);position:relative}
-.proof .wrap{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;padding-top:24px;padding-bottom:24px}
+.proof .wrap{display:grid;grid-template-columns:repeat(6,1fr);align-items:start;gap:18px;padding-top:24px;padding-bottom:24px}
 .proof div{font-size:13.5px;color:#BFAAB2;line-height:1.4}
 .proof b{display:block;color:#fff;font-family:'Fraunces',serif;font-weight:600;font-size:16px;margin-bottom:2px}
 /* profile feature */
@@ -52,7 +52,7 @@ section{padding:96px 0}
 .work{background:var(--wine);color:#F6ECEF;position:relative;overflow:hidden}
 .work:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 90% 0%,rgba(192,18,44,.42),rgba(21,13,16,0) 55%)}
 .work .wrap{position:relative}
-.work .head h2{color:#fff}.work .head p{color:#D9C8CE}
+.work .head h2{color:#fff}.nw{white-space:nowrap}.work .head p{color:#D9C8CE}
 .regime{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center;margin-bottom:56px}
 .regime h3{font-size:clamp(30px,3.2vw,42px);color:#fff;margin:10px 0 14px}
 .regime h3 em{font-style:italic;color:var(--rose)}
@@ -65,6 +65,16 @@ section{padding:96px 0}
 .offer small{color:#BFAAB2;font-size:14px;line-height:1.45}
 .phone{justify-self:center;width:min(310px,100%);border-radius:44px;padding:12px;background:#0B0708;box-shadow:0 0 0 1px #3a2a30,0 40px 90px rgba(0,0,0,.5)}
 .phone img{border-radius:34px;width:100%}
+.napkin{margin:56px 0 0;grid-template-columns:.85fr 1.15fr}
+.napkin>div{order:2}
+.nap{justify-self:center;width:min(440px,100%);margin:0}
+.nap img{width:100%;height:auto;transform:rotate(-2deg)}
+.slip{position:relative;margin:-64px 0 0 auto;width:86%;background:#0B0708;border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:18px 22px 20px;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.slip .kicker{color:var(--lilac);font-size:11px}
+.slip .q{font-family:'Fraunces',serif;font-size:23px;line-height:1.25;color:#fff;margin:8px 0 8px}
+.slip .q em{font-style:italic;color:var(--rose)}
+.slip p{color:#CDB9C0;font-size:15px;line-height:1.5}
+.slip a{color:#fff;font-weight:700;text-underline-offset:3px;display:inline-block;padding:6px 0;margin:-6px 0}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .wc{border-radius:24px;padding:34px 32px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09)}
 .wc h3{font-size:30px;color:#fff;margin:10px 0 10px}
@@ -98,6 +108,7 @@ section{padding:96px 0}
 @media (max-width:1000px){.proof .wrap{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:900px){
   .hero .wrap,.regime,.two,.feature,.bios{grid-template-columns:1fr;gap:32px}
+  .napkin>div{order:0}
   .hero .wrap{padding-top:40px;padding-bottom:52px}
   .portrait{max-width:420px}
   .conv,.talks,.stats{grid-template-columns:1fr 1fr}
@@ -118,9 +129,9 @@ section{padding:96px 0}
 <header class="hero" id="top">
   <div class="wrap">
     <div>
-      <div class="kicker" style="color:var(--lilac)">Engineer · Founder of Regime and Mindologue</div>
+      <div class="kicker" style="color:var(--lilac)">Engineer · Founder of Regime, Mindologue and NAPKIN</div>
       <h1>A woman's body changes every week. <em>Medicine was built for one that doesn't.</em></h1>
-      <p class="sub">Diana Renard is an engineer and a student of the mind. She builds technology for the body and mind women actually have: Regime for health, Mindologue for emotion.</p>
+      <p class="sub">Diana Renard is an engineer and a student of the mind. She builds technology for the body and mind women actually have: Regime for health, Mindologue for emotion, NAPKIN for love.</p>
       <div class="ctas">
         <a class="btn primary" href="/story">Read the profile</a>
         <a class="btn ghost" href="https://regimelongevity.com/">Explore Regime</a>
@@ -131,6 +142,7 @@ section{padding:96px 0}
   <div class="proof"><div class="wrap">
     <div><b>Founder</b>Regime, health technology for women</div>
     <div><b>Founder</b>Mindologue, emotional insight</div>
+    <div><b>Founder</b>NAPKIN, the first-date app</div>
     <div><b>Author</b>Unfolding Your True Self</div>
     <div><b>Engineer</b>Computer programming, Siberian State Aerospace University</div>
     <div><b>Speaker</b>Live demo, AI Salon Miami, 2026</div>
@@ -170,8 +182,8 @@ section{padding:96px 0}
   <div class="wrap">
     <div class="head">
       <div class="kicker" style="color:var(--lilac)">The work</div>
-      <h2>One for the body. <em>One for the mind.</em></h2>
-      <p>Two companies built on the same conviction: the tools we use to understand ourselves were designed around the wrong default.</p>
+      <h2><span class="nw">One for the body.</span> <span class="nw">One for the mind.</span> <em class="nw">One for the heart.</em></h2>
+      <p>Three companies built on the same conviction: the tools we use to understand ourselves, and each other, were designed around the wrong default.</p>
     </div>
     <div class="regime">
       <div>
@@ -191,6 +203,28 @@ section{padding:96px 0}
     <div class="two">
       <div class="wc"><div class="kicker">Mindologue</div><h3>For the feelings words can't reach.</h3><p>Photograph a drawing and receive a reflection on what it may be expressing, with journaling and guided meditation. Built on projective psychology and art therapy.</p><div class="ctas"><a class="btn primary" href="https://apps.apple.com/us/app/mindologue-emotional-insight/id6745147570">Get the app</a><a class="btn ghost" href="https://mindologue.com/">Learn more</a></div></div>
       <div class="wc"><div class="kicker">The book</div><h3>Unfolding Your True Self</h3><p>A 30-day workbook of drawing exercises, born from her own recovery, to rebuild confidence and quiet negative self-talk.</p><div class="ctas"><a class="btn primary" href="https://www.amazon.com/dp/B0GTFG4XJ1">Order on Amazon</a><a class="btn ghost" href="/freepdf/">Free download</a></div></div>
+    </div>
+    <div class="regime napkin">
+      <div>
+        <div class="kicker" style="color:var(--lilac)"><span class="nw">NAPKIN Dating ·</span> <span class="nw">coming soon to iPhone</span></div>
+        <h3>Is this person <em class="nw">right for you?</em></h3>
+        <p class="lead">Ask your date to draw love on a napkin. NAPKIN reads the drawing and shows you who is sitting across the table.</p>
+        <div class="feat">
+          <div><b>One minute, one pen</b><span>Anyone can rehearse an answer. Nobody rehearses a drawing.</span></div>
+          <div><b>How they love</b><span>Leans secure, anxious or avoidant, with what to watch next.</span></div>
+          <div><b>Games for the next dates</b><span>Spin the bottle, draw side by side, answer out loud. NAPKIN listens.</span></div>
+          <div><b>A straight answer</b><span>After a few dates: continue, slow down or walk away, with the reasons.</span></div>
+        </div>
+        <div class="offer"><a class="btn primary" href="https://napkin.dating/#join">Join the waitlist</a><small>Free to start.<br>One email on launch day, nothing else.</small></div>
+      </div>
+      <figure class="nap">
+        <img src="images/napkin.webp" width="900" height="900" loading="lazy" alt="The real paper napkin from Diana's first date: a grinning heart with eyes on stalks and the words I love you.">
+        <figcaption class="slip">
+          <div class="kicker">The napkin that started it</div>
+          <p class="q">"I had the answer on a napkin. <em class="nw">I didn't listen."</em></p>
+          <p>A first date, a charming man, one drawing. Everything it showed came true. <a href="https://napkin.dating/#letter-h">Read her letter</a></p>
+        </figcaption>
+      </figure>
     </div>
   </div>
 </section>
@@ -220,14 +254,14 @@ section{padding:96px 0}
     </div>
     <div class="talks">
       <div class="talk"><h3>The female data gap</h3><p>Why so much health advice was never tested on bodies like ours, and what it costs every month.</p></div>
-      <div class="talk"><h3>From breakdown to two companies</h3><p>What an engineer learned rebuilding herself, and then a product.</p></div>
+      <div class="talk"><h3>From breakdown to three companies</h3><p>What an engineer learned rebuilding herself, and then a product.</p></div>
       <div class="talk"><h3>Health technology women trust</h3><p>Evidence, privacy and the discipline of not overclaiming.</p></div>
       <div class="talk"><h3>Drawing the mind</h3><p>Projective psychology, from Rorschach to the smartphone.</p></div>
     </div>
     <div class="recent"><b>Recently:</b> live demonstration of Mindologue at AI Salon Miami, Mana Tech Loft, August 2026.</div>
     <div class="bios">
-      <div class="bioc"><div class="kicker">Short bio</div><p id="bio1">Diana Renard is an engineer and the founder of Regime, health technology that starts from the female body, and Mindologue, an emotional insight app. She is the author of Unfolding Your True Self.</p><button class="copy" data-copy="bio1">Copy bio</button></div>
-      <div class="bioc"><div class="kicker">Full bio</div><p id="bio2">Diana Renard is the founder of Regime and Mindologue. Trained in computer programming at Siberian State Aerospace University, she also studied psychology and art therapy. During a personal crisis, drawing became her way to understand her own emotions, and that practice became her workbook, Unfolding Your True Self, and Mindologue, an app that helps people reflect on what their drawings may express. Her second company, Regime, applies the same thinking to the body: a health plan that adapts to a woman's hormones and life stage every day. She lives in Miami Beach.</p><button class="copy" data-copy="bio2">Copy bio</button></div>
+      <div class="bioc"><div class="kicker">Short bio</div><p id="bio1">Diana Renard is an engineer and the founder of three companies: Regime, health technology that starts from the female body; Mindologue, an emotional insight app; and NAPKIN Dating, the first-date app that reads a napkin drawing. She is the author of Unfolding Your True Self.</p><button class="copy" data-copy="bio1">Copy bio</button></div>
+      <div class="bioc"><div class="kicker">Full bio</div><p id="bio2">Diana Renard is the founder of Regime, Mindologue and NAPKIN Dating. Trained in computer programming at Siberian State Aerospace University, she also studied psychology and art therapy. During a personal crisis, drawing became her way to understand her own emotions, and that practice became her workbook, Unfolding Your True Self, and Mindologue, an app that helps people reflect on what their drawings may express. Her second company, Regime, applies the same thinking to the body: a health plan that adapts to a woman's hormones and life stage every day. Her third, NAPKIN Dating, began on a first date, with a napkin drawing whose warning she ignored: the app invites a date to draw love on a napkin and shows who is sitting across the table. She lives in Miami Beach.</p><button class="copy" data-copy="bio2">Copy bio</button></div>
     </div>
     <div class="row"><a class="btn primary" href="mailto:diana@mindologue.com?subject=Speaking%20or%20partnership">Email Diana</a><a class="btn light" href="images/diana.jpg" download>Download press photo</a></div>
   </div>
@@ -238,11 +272,11 @@ section{padding:96px 0}
     <div class="kicker">Follow the build</div>
     <h2>Regime is being built in public.</h2>
     <p>The launch, the decisions, the evidence, and what every woman should know about her body this week.</p>
-    <div class="ctas"><a class="btn primary" href="https://www.instagram.com/diana_renard_vision/">Follow on Instagram</a><a class="btn light" href="https://www.linkedin.com/in/diana-renard-mindologue/">Connect on LinkedIn</a></div>
+    <div class="ctas"><a class="btn primary" href="https://www.instagram.com/diana_renard_vision/">Follow on Instagram</a><a class="btn light" href="https://www.linkedin.com/in/dianarenard/">Connect on LinkedIn</a></div>
   </div>
 </section>
 
-<footer><div class="wrap"><span>© 2026 Diana Renard</span><span><a href="/story">Profile</a><a href="https://regimelongevity.com/">Regime</a><a href="https://mindologue.com/">Mindologue</a><a href="https://www.instagram.com/diana_renard_vision/">Instagram</a><a href="https://www.linkedin.com/in/diana-renard-mindologue/">LinkedIn</a></span></div></footer>
+<footer><div class="wrap"><span>© 2026 Diana Renard</span><span><a href="/story">Profile</a><a href="https://regimelongevity.com/">Regime</a><a href="https://mindologue.com/">Mindologue</a><a href="https://napkin.dating/">NAPKIN</a><a href="https://www.instagram.com/diana_renard_vision/">Instagram</a><a href="https://www.linkedin.com/in/dianarenard/">LinkedIn</a></span></div></footer>
 
 <script>
 document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var t=document.getElementById(b.dataset.copy).innerText;var done=function(){var o=b.textContent;b.textContent='Copied';setTimeout(function(){b.textContent=o},1600)};if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,done)}else{done()}})});

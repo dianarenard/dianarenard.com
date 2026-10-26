@@ -1,6 +1,6 @@
 # dianarenard.com
 
-The personal website of Diana Renard, founder of Regime and Mindologue.
+The personal website of Diana Renard, founder of Regime, Mindologue and NAPKIN.
 
 Plain HTML and CSS, no build step.
 
