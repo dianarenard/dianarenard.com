@@ -3,177 +3,217 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Diana Renard, founder of Regime, Mindologue and NAPKIN</title>
-<meta name="description" content="Diana Renard is an engineer, an author and the founder of Regime, Mindologue and NAPKIN: apps that read what people find hard to put into words.">
+<title>Diana Renard · Engineer, founder of Regime, Mindologue and NAPKIN</title>
+<meta name="description" content="Diana Renard is an engineer and the founder of Regime, Mindologue and NAPKIN, building technology for the body, the mind and the first date.">
 <meta property="og:title" content="Diana Renard">
-<meta property="og:description" content="Engineer, author and founder of three companies that read people: Mindologue, NAPKIN and Regime.">
+<meta property="og:description" content="A woman's body changes every week. Medicine was built for one that doesn't.">
 <meta property="og:image" content="https://dianarenard.com/images/diana.jpg">
 <link rel="canonical" href="https://dianarenard.com/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
-<!-- product logos, each in its own brand's face, loaded only for their letters -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&text=Mindologue&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&text=REGIME&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@600&text=NAPKIN&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500;1,9..144,700;1,9..144,900&family=Poppins:wght@400;500;600&family=Bodoni+Moda:opsz,wght@6..96,400&family=Libre+Bodoni:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <style>
-section{padding:104px 0}
-h2{font-size:clamp(38px,4.6vw,60px);color:var(--wine)}
-.lead{font-size:19px;color:var(--grey);margin-top:16px;max-width:46ch}
-/* hero: deep wine, her portrait */
-.hero{background:var(--wine);color:var(--white)}
-.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:center;padding-top:72px;padding-bottom:64px}
-.hero h1{font-size:clamp(64px,8.4vw,124px);line-height:.92;letter-spacing:-.015em;color:var(--white)}
-.hero-line{font-family:'Cormorant Garamond',Garamond,serif;font-weight:500;font-size:clamp(28px,3.1vw,40px);line-height:1.15;color:var(--rose);margin-top:22px}
-.hero-sub{font-size:18px;line-height:1.6;color:var(--mist);margin-top:22px;max-width:44ch}
-.hero .ctas{margin-top:34px}
-.hero .btn.line{color:var(--white)}
-.hero-ph{margin:0;aspect-ratio:4/5;overflow:hidden;border-radius:4px}
-.hero-ph img{width:100%;height:100%;object-fit:cover;object-position:center 18%}
-.facts{display:grid;grid-template-columns:repeat(5,1fr);gap:24px;padding-top:28px;padding-bottom:36px;border-top:1px solid #3A1C25}
-.facts dt{font-size:13px;font-weight:600;color:var(--rose)}
-.facts dd{font-size:15px;line-height:1.45;color:#F1E6E9;margin-top:4px}
-/* her story */
-.story-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:72px;align-items:start}
-.story-ph{margin:0;position:sticky;top:96px;aspect-ratio:3/4;overflow:hidden;border-radius:4px}
-.story-ph img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
-.story-tx h2{max-width:16ch}
-.story-tx p{font-size:18px;line-height:1.7;color:#2B2124;margin-top:22px;max-width:60ch}
-.story-tx blockquote{font-family:'Cormorant Garamond',Garamond,serif;font-weight:500;font-size:clamp(26px,2.6vw,32px);line-height:1.25;color:var(--wine);margin:40px 0 0;max-width:30ch}
-.sign{width:200px;height:auto;margin-top:18px}
-.more{display:inline-block;margin-top:22px;font-weight:600;color:var(--red);text-underline-offset:5px;padding:10px 0}
-.miles{margin-top:72px}
-.miles h3{font-size:30px;color:var(--wine);margin:0 0 8px}
-.miles dl{display:grid;grid-template-columns:150px 1fr}
-.miles dt,.miles dd{padding:14px 0;border-bottom:1px solid var(--line);font-size:16px}
-.miles dt{font-weight:600;color:var(--red)}
-.miles dd{color:#2B2124}
-/* the work: one family of tiles; each product shows its own colour, logo and real picture */
-.work{background:var(--blush)}
-.work .head{margin-bottom:44px}
-.tiles{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-.tile{display:flex;flex-direction:column;background:var(--white);border-radius:6px;overflow:hidden}
-.stage{position:relative;height:300px;overflow:hidden;display:flex;align-items:flex-end;justify-content:center}
-.mark{position:absolute;top:22px;left:24px;display:flex;align-items:center;gap:10px;line-height:1}
-.stage img{height:auto;flex:none}
-.tbody{padding:26px 28px 30px;display:flex;flex-direction:column;flex:1}
-.tbody h3{font-size:30px;line-height:1.1;color:var(--wine)}
-.tbody p{font-size:15.5px;line-height:1.6;color:var(--grey);margin-top:10px}
-.tbody .why{color:var(--ink)}
-.tlinks{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:auto;padding-top:22px}
-.tlinks a.txt{font-weight:600;font-size:15px;color:var(--red);text-underline-offset:4px;padding:12px 0}
-/* Mindologue: mindolog.com's periwinkle, its app icon and Mell-E */
-.s-mind{background:#DDE4FF;justify-content:flex-end;padding-right:64px}
-.s-mind .mark span{font-family:'Poppins',sans-serif;font-weight:600;font-size:18px;color:#1D264A}
-.s-mind .mark img{border-radius:9px}
-.s-mind .shot{width:200px;margin-bottom:-100px}
-/* The book: black and white, the cover itself */
-.s-book{background:#ECECEC;align-items:center}
-.s-book .cover{width:180px;box-shadow:0 22px 44px rgba(0,0,0,.35)}
-/* Regime: its crimson and the REGIME Longevity logo, the app */
-.s-reg{background:#AD0529;justify-content:flex-end;padding-right:64px}
-.s-reg .mark b{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:900;font-size:26px;color:#fff}
-.s-reg .mark small{font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:#F6D3DA}
-.s-reg .shot{width:190px;margin-bottom:-150px;border-radius:26px;box-shadow:0 20px 50px rgba(30,0,8,.45)}
-/* NAPKIN: napkin.dating's ink black, its wordmark and the real napkin */
-.s-nk{background:#0C0B0B;align-items:center}
-.s-nk .mark span{font-family:'Libre Bodoni',Didot,serif;font-weight:600;font-size:24px;letter-spacing:.02em;color:#EEE7DC}
-.s-nk .napkin{width:236px;transform:rotate(-3deg);margin-top:30px}
+section{padding:96px 0}
+.head{max-width:740px;margin-bottom:46px}
+.head h2{font-size:clamp(34px,4vw,52px);margin-top:12px}
+.head p{font-size:19px;color:#4c3a42;margin-top:16px}
+/* hero */
+.hero{background:var(--wine);color:#F6ECEF;position:relative;overflow:hidden}
+.hero:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 20% -10%,rgba(192,18,44,.55),rgba(21,13,16,0) 60%)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;padding-top:76px;padding-bottom:76px}
+.hero h1{font-size:clamp(40px,5.2vw,68px);color:#fff;margin:18px 0 24px}
+.hero p.sub{font-size:19px;color:#D9C8CE;max-width:560px}
+.ctas{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+.portrait{border-radius:28px;overflow:hidden;aspect-ratio:4/5;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:center 18%}
+.proof{border-top:1px solid rgba(255,255,255,.08);position:relative}
+.proof .wrap{display:grid;grid-template-columns:repeat(6,1fr);align-items:start;gap:18px;padding-top:24px;padding-bottom:24px}
+.proof div{font-size:13.5px;color:#BFAAB2;line-height:1.4}
+.proof b{display:block;color:#fff;font-family:'Fraunces',serif;font-weight:600;font-size:16px;margin-bottom:2px}
+/* profile feature */
+.feature{display:grid;grid-template-columns:.9fr 1.1fr;background:#fff;border:1px solid var(--line);border-radius:28px;overflow:hidden;text-decoration:none;color:inherit;transition:transform .2s ease,box-shadow .2s ease}
+.feature:hover{transform:translateY(-2px);box-shadow:0 24px 60px rgba(21,13,16,.10)}
+.feature .ph{min-height:420px;background:url('images/diana.jpg') center 15%/cover}
+.feature .tx{padding:48px 48px 44px;display:flex;flex-direction:column}
+.feature h3{font-size:clamp(34px,3.6vw,48px);margin:12px 0 16px}
+.feature h3 em{font-style:italic;color:var(--crimson)}
+.feature .dk{font-family:'Fraunces',serif;font-size:20px;line-height:1.45;color:#4c3a42}
+.feature .ex{margin-top:18px;color:#4c3a42;font-size:16px;border-left:3px solid var(--lilac);padding-left:14px}
+.feature .rd{margin-top:auto;padding-top:26px;font-weight:700;color:var(--crimson)}
+/* convictions */
+.conv{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cv{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px 28px}
+.cv .n{font-family:'Fraunces',serif;font-style:italic;font-size:40px;color:var(--crimson);line-height:1}
+.cv h3{font-size:26px;margin:14px 0 10px}
+.cv p{font-size:16px;color:#4c3a42}
+.cv .ev{margin-top:14px;font-size:14px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
+/* work */
+.work{background:var(--wine);color:#F6ECEF;position:relative;overflow:hidden}
+.work:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 90% 0%,rgba(192,18,44,.42),rgba(21,13,16,0) 55%)}
+.work .wrap{position:relative}
+.work .head h2{color:#fff}.nw{white-space:nowrap}.work .head p{color:#D9C8CE}
+.regime{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center;margin-bottom:56px}
+.regime h3{font-size:clamp(30px,3.2vw,42px);color:#fff;margin:10px 0 14px}
+.regime h3 em{font-style:italic;color:var(--rose)}
+.regime p.lead{color:#D9C8CE;font-size:18px;margin-bottom:22px}
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:28px}
+.feat div{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);border-radius:16px;padding:16px 18px}
+.feat b{display:block;font-family:'Fraunces',serif;font-weight:600;font-size:18px;color:#fff;margin-bottom:2px}
+.feat span{color:#CDB9C0;font-size:15px}
+.offer{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.offer small{color:#BFAAB2;font-size:14px;line-height:1.45}
+.phone{justify-self:center;width:min(310px,100%);border-radius:44px;padding:12px;background:#0B0708;box-shadow:0 0 0 1px #3a2a30,0 40px 90px rgba(0,0,0,.5)}
+.phone img{border-radius:34px;width:100%}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+/* Mindologue, as on mindolog.com: airy white and periwinkle, navy Poppins, gradient pills */
+.mind{position:relative;overflow:hidden;display:grid;grid-template-columns:1fr 150px;gap:20px;align-items:end;border-radius:28px;padding:32px 30px 0;background:linear-gradient(160deg,#fff 0%,#f9fafe 45%,#e6ecff 100%);color:#1D264A;font-family:'Poppins',system-ui,sans-serif;box-shadow:0 8px 32px rgba(31,38,135,.15)}
+.mind-tx{align-self:start;padding-bottom:32px}
+.mind-brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:17px}
+.mind-brand img{border-radius:11px}
+.mind h3{font-family:'Poppins',sans-serif;font-weight:600;font-size:26px;line-height:1.2;letter-spacing:-.01em;margin:18px 0 10px}
+.mind p{font-size:15px;line-height:1.6;color:#4E5779}
+.mind-ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.mind-btn{display:inline-flex;align-items:center;min-height:48px;padding:0 26px;border-radius:999px;font-weight:500;font-size:15px;text-decoration:none;color:#fff;background:linear-gradient(135deg,#3D6FB4 0%,#7751EA 100%);box-shadow:0 10px 25px rgba(61,111,180,.3)}
+.mind-btn.ghost{color:#6440D8;background:#fff;border:2px solid #7751EA;box-shadow:0 4px 15px rgba(0,0,0,.05);font-weight:600}
+.mind-phone{width:150px;height:auto;align-self:end;margin-bottom:-60px}
+/* The book, as its cover: black and white, thin Bodoni capitals, square edges */
+.book{display:grid;grid-template-columns:170px 1fr;gap:26px;align-items:center;border-radius:4px;padding:30px;background:#000;color:#fff;border:1px solid #262626}
+.book-cover{width:170px;height:auto;box-shadow:0 18px 40px rgba(0,0,0,.6)}
+.book-over,.book-by{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#bdbdbd}
+.book h3{font-family:'Bodoni Moda',Didot,serif;font-weight:400;font-size:27px;line-height:1.12;letter-spacing:.04em;text-transform:uppercase;color:#fff;margin:10px 0 8px}
+.book-by{letter-spacing:.24em;color:#e6e6e6}
+.book p:not(.book-over):not(.book-by){font-size:15px;line-height:1.6;color:#c4c4c4;margin-top:16px}
+.book-ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.book-btn{display:inline-flex;align-items:center;min-height:46px;padding:0 20px;font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:#000;background:#fff;border:1px solid #fff}
+.book-btn.ghost{color:#fff;background:transparent;border-color:#8a8a8a}
+/* NAPKIN, as on napkin.dating: ink black, ivory Libre Bodoni, one lipstick red, the real napkin */
+.nk{margin-top:56px;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;border-radius:28px;padding:56px;background:#0C0B0B;color:#EEE7DC;border:1px solid #2E2929;font-family:'Figtree',system-ui,sans-serif}
+.nk-mark{font-family:'Libre Bodoni',Didot,serif;font-weight:600;font-size:26px;letter-spacing:.02em;line-height:1;color:#EEE7DC}
+.nk-kicker{display:flex;align-items:flex-start;gap:10px;margin-top:26px;font-size:15px;font-weight:600;color:#A69E94}
+.nk-kicker:before{content:'';flex:none;margin-top:8px;width:8px;height:8px;border-radius:50%;background:#9E1F33;box-shadow:0 0 0 4px rgba(158,31,51,.28)}
+.nk h3{font-family:'Libre Bodoni',Didot,serif;font-weight:600;font-size:clamp(40px,4.4vw,58px);line-height:1;letter-spacing:-.015em;color:#EEE7DC;margin:14px 0 18px}
+.nk h3 em{display:block;font-weight:500;color:#CF6577}
+.nk-lede{font-size:18px;line-height:1.55;color:#DCD4C8;max-width:34ch}
+.nk-steps{list-style:none;margin:30px 0 0;padding:0;border-top:1px solid #2E2929}
+.nk-steps li{display:grid;grid-template-columns:34px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid #2E2929}
+.nk-steps b{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#9E1F33;color:#EEE7DC;font-weight:600;font-size:15px}
+.nk-steps span{font-size:14px;font-weight:600;color:#A69E94}
+.nk-steps h4{font-family:'Libre Bodoni',Didot,serif;font-weight:600;font-size:22px;line-height:1.15;margin:2px 0 4px;color:#EEE7DC}
+.nk-steps p{font-size:15.5px;line-height:1.5;color:#A69E94}
+.nk-cta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:28px}
+.nk-btn{display:inline-flex;align-items:center;min-height:54px;padding:0 26px;border-radius:999px;background:#9E1F33;color:#EEE7DC;font-weight:600;font-size:17px;text-decoration:none}
+.nk-btn:hover{background:#B22439}
+.nk-cta small{font-size:14px;color:#A69E94;max-width:22ch;line-height:1.45}
+.nk-fig{position:relative;margin:0;justify-self:center;width:min(440px,100%);padding-bottom:96px}
+.nk-fig img{width:100%;height:auto;transform:rotate(-3deg)}
+.nk-slip{position:absolute;left:-14px;bottom:0;width:min(72%,290px);background:#171414;border:1px solid #2E2929;border-radius:20px;padding:16px 18px 18px;box-shadow:0 30px 60px -20px #000;transform:rotate(1.5deg)}
+.nk-label{font-size:13px;font-weight:600;color:#A69E94}
+.nk-q{font-family:'Libre Bodoni',Didot,serif;font-weight:600;font-size:22px;line-height:1.15;color:#EEE7DC;margin:6px 0 8px}
+.nk-q em{display:block;font-weight:500;color:#CF6577}
+.nk-small{font-size:14px;line-height:1.5;color:#A69E94}
+.nk-small a{color:#EEE7DC;font-weight:600;text-underline-offset:3px}
+/* research */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.st{border-top:3px solid var(--crimson);padding-top:18px}
+.st b{display:block;font-family:'Fraunces',serif;font-weight:500;font-size:54px;line-height:1;color:var(--wine)}
+.st p{font-size:15px;color:#4c3a42;margin-top:10px}
+.st small{display:block;font-size:12.5px;color:var(--muted);margin-top:8px}
 /* speaking */
-.speak-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:start}
-.speak-ph{margin:0;aspect-ratio:4/5;overflow:hidden;border-radius:4px}
-.speak-ph img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
-.topics{list-style:none;margin:30px 0 0}
-.topics li{padding:14px 0}
-.topics h3{font-size:26px;line-height:1.15;color:var(--wine)}
-.topics p{font-size:16px;color:var(--grey);margin-top:4px}
-.recent{margin-top:24px;font-size:16px;color:#2B2124}
-.speak .ctas{margin-top:28px}
-.bios{display:grid;grid-template-columns:1fr 1.4fr;gap:20px;margin-top:72px}
-.bioc{background:var(--blush);border-radius:6px;padding:24px 24px 20px}
-.bioc h3{font-size:24px;color:var(--wine);margin-bottom:10px}
-.bioc p{font-size:15.5px;color:#2B2124}
-.copy{margin-top:14px;font:inherit;font-size:14px;font-weight:600;color:var(--red);background:var(--white);border:1px solid var(--red);border-radius:4px;min-height:44px;padding:0 14px;cursor:pointer}
-.copy:hover{background:#fff4f6}
+.talks{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:28px}
+.talk{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px 20px}
+.talk h3{font-size:21px;margin-bottom:6px}
+.talk p{font-size:15px;color:#4c3a42}
+.recent{background:var(--lilac2);border:1px solid #DCCCF4;border-radius:16px;padding:16px 20px;margin-bottom:28px;font-size:16px;color:#2E1A55}
+.bios{display:grid;grid-template-columns:1fr 1.4fr;gap:18px;margin-bottom:28px}
+.bioc{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px 22px 18px;position:relative}
+.bioc .kicker{margin-bottom:8px}
+.bioc p{font-size:15.5px;color:#3d2c33}
+.copy{margin-top:14px;font:inherit;font-size:14px;font-weight:700;color:var(--crimson);background:none;border:1px solid var(--line);border-radius:10px;padding:7px 12px;cursor:pointer}
+.copy:hover{border-color:var(--crimson)}
+.row{display:flex;gap:12px;flex-wrap:wrap}
 /* follow */
-.follow{background:var(--wine);color:var(--white);padding:80px 0}
-.follow h2{color:var(--white)}
-.follow .wrap{display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap}
-.follow p{color:var(--mist);font-size:18px;margin-top:12px;max-width:40ch}
-.follow .btn.line{color:var(--white)}
-@media (max-width:1000px){.facts{grid-template-columns:repeat(3,1fr)}}
+.follow{background:var(--blush);text-align:center}
+.follow h2{font-size:clamp(32px,4vw,48px)}
+.follow p{color:#4c3a42;font-size:19px;margin:14px auto 30px;max-width:580px}
+.follow .ctas{justify-content:center}
+@media (max-width:1000px){.proof .wrap{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:900px){
-  section{padding:76px 0}
-  .hero-grid,.story-grid,.speak-grid,.tiles,.bios{grid-template-columns:1fr;gap:40px}
-  .tiles{gap:20px}
-  .hero-grid{padding-top:44px}
-  .hero-ph{max-width:440px}
-  .story-ph{position:static;max-width:440px}
-  .speak-ph{max-width:440px}
+  .hero .wrap,.regime,.two,.feature,.bios,.nk{grid-template-columns:1fr;gap:32px}
+  .nk{padding:40px 32px;gap:44px}
+  .hero .wrap{padding-top:40px;padding-bottom:52px}
+  .portrait{max-width:420px}
+  .conv,.talks,.stats{grid-template-columns:1fr 1fr}
+  .feature .ph{display:none}
+  .feature .tx{padding:32px 28px}
+  section{padding:72px 0}
 }
 @media (max-width:560px){
-  .facts{grid-template-columns:1fr 1fr;gap:18px}
-  .miles dl{grid-template-columns:118px 1fr}
-  .stage{height:260px}
-  .s-mind,.s-reg{padding-right:28px}
-  .s-mind .shot{width:170px;margin-bottom:-160px}
-  .s-reg .shot{width:170px;margin-bottom:-178px}
-  .tbody{padding:22px 22px 26px}
+  .proof .wrap,.conv,.talks,.stats,.feat{grid-template-columns:1fr}
+  .mind{grid-template-columns:1fr;padding:28px 22px 0}
+  .mind-tx{padding-bottom:0}
+  .mind-phone{justify-self:center;width:170px;margin:0 0 -150px}
+  .book{grid-template-columns:1fr;padding:28px 22px}
+  .book-cover{width:160px}
+  .nk{padding:32px 22px;border-radius:24px}
+  .nk-cta small{max-width:none}
+  .nk-fig{padding-bottom:0}
+  .nk-slip{position:relative;left:auto;width:auto;margin:-48px 6px 0 18px}
 }
 </style>
 </head>
 <body>
 
-<nav><div class="wrap"><a class="logo" href="#top">Diana Renard</a><div class="links"><a href="#story">Story</a><a href="#work">Work</a><a href="#speaking">Speaking</a><a class="btn" href="mailto:diana@mindologue.com">Email Diana</a></div></div></nav>
+<nav><div class="wrap"><a class="logo" href="#top">Diana Renard</a><div class="links"><a href="/story">Profile</a><a href="#convictions">Convictions</a><a href="#work">Work</a><a href="#speaking">Speaking</a><a class="btn primary" href="https://regimelongevity.com/">Explore Regime</a></div></div></nav>
 
 <header class="hero" id="top">
-  <div class="wrap hero-grid">
+  <div class="wrap">
     <div>
-      <h1>Diana Renard</h1>
-      <p class="hero-line">I build apps that read people.</p>
-      <p class="hero-sub">An engineer and an author, she has founded three companies in under two years. Each one reads something people find hard to put into words: a drawing, a first date, a body that changes every week.</p>
-      <div class="ctas"><a class="btn" href="#story">Her story</a><a class="btn line" href="#work">What she has built</a></div>
-    </div>
-    <figure class="hero-ph"><img src="images/diana.jpg" width="900" height="1230" alt="Diana Renard"></figure>
-  </div>
-  <div class="wrap">
-    <dl class="facts">
-      <div><dt>Founder</dt><dd>Regime, Mindologue and NAPKIN</dd></div>
-      <div><dt>Author</dt><dd>Unfolding Your True Self</dd></div>
-      <div><dt>Engineer</dt><dd>Siberian State Aerospace University</dd></div>
-      <div><dt>Coach</dt><dd>Certified art life coach</dd></div>
-      <div><dt>Speaker</dt><dd>AI Salon Miami, 2026</dd></div>
-    </dl>
-  </div>
-</header>
-
-<section id="story">
-  <div class="wrap">
-    <div class="story-grid">
-      <figure class="story-ph"><img src="images/diana-at-work.webp" width="900" height="1200" loading="lazy" alt="Diana Renard at work on her laptop, in a red dress"></figure>
-      <div class="story-tx">
-        <h2>From an aerospace university to apps that read people.</h2>
-        <p>Diana Renard studied engineering at Siberian State Aerospace University in Krasnoyarsk. She learned to see problems as systems: what goes in, what comes out, and the one wrong assumption that breaks everything after it.</p>
-        <p>Then her own life came apart. Broken relationships, work and money pressed in at once, and drawing became the way she understood her fears. She studied psychology and art therapy, and turned the exercises that carried her through into a 30-day workbook, <i>Unfolding Your True Self</i>.</p>
-        <p>The workbook became Mindologue, an app that reflects on what a drawing may be expressing, which she co-founded with Fabrice Colozzi. Then came a first date. She asked a charming man to draw on a napkin, read it with Mindologue, and chose him anyway. Everything the drawing showed came true. That napkin became NAPKIN.</p>
-        <p>Regime brings the same thinking to the body, with a plan that knows which week of her cycle a woman is in. Diana designs and builds Regime and NAPKIN herself.</p>
-        <blockquote>"Most people struggle to put their deepest blocks into words, so I teach them to use symbols, lines, and colors instead."</blockquote>
-        <img class="sign" src="images/signature-red.webp" width="440" height="197" loading="lazy" alt="Signed, Diana Renard">
-        <a class="more" href="/story">Read the full profile</a>
+      <div class="kicker" style="color:var(--lilac)">Engineer · Founder of Regime, Mindologue and NAPKIN</div>
+      <h1>A woman's body changes every week. <em>Medicine was built for one that doesn't.</em></h1>
+      <p class="sub">Diana Renard is an engineer and a student of the mind. She builds technology for the body and mind women actually have: Regime for health, Mindologue for emotion, NAPKIN for love.</p>
+      <div class="ctas">
+        <a class="btn primary" href="/story">Read the profile</a>
+        <a class="btn ghost" href="https://regimelongevity.com/">Explore Regime</a>
       </div>
     </div>
-    <div class="miles">
-      <h3>Milestones</h3>
-      <dl>
-        <dt>2013</dt><dd>Begins her engineering studies at Siberian State Aerospace University</dd>
-        <dt>January 2025</dt><dd>Co-founds Mindologue</dd>
-        <dt>March 2026</dt><dd>Publishes <i>Unfolding Your True Self</i></dd>
-        <dt>April 2026</dt><dd>Founds Regime</dd>
-        <dt>July 2026</dt><dd>Certified as an art life coach</dd>
-        <dt>August 2026</dt><dd>Demonstrates Mindologue live at AI Salon Miami</dd>
-        <dt>October 2026</dt><dd>Founds NAPKIN</dd>
-      </dl>
+    <div class="portrait"><img src="images/diana.jpg" alt="Diana Renard"></div>
+  </div>
+  <div class="proof"><div class="wrap">
+    <div><b>Founder</b>Regime, health technology for women</div>
+    <div><b>Founder</b>Mindologue, emotional insight</div>
+    <div><b>Founder</b>NAPKIN, the first-date app</div>
+    <div><b>Author</b>Unfolding Your True Self</div>
+    <div><b>Engineer</b>Computer programming, Siberian State Aerospace University</div>
+    <div><b>Speaker</b>Live demo, AI Salon Miami, 2026</div>
+  </div></div>
+</header>
+
+<section style="padding-bottom:40px">
+  <div class="wrap">
+    <a class="feature" href="/story">
+      <div class="ph" role="img" aria-label="Diana Renard"></div>
+      <div class="tx">
+        <div class="kicker">The profile · 8 minute read</div>
+        <h3>The body medicine <em>measured last</em></h3>
+        <p class="dk">Trained as a programmer in Siberia and rebuilt through drawing when her life came apart, Diana Renard is building health technology that starts from the female body.</p>
+        <p class="ex">In January 2013, regulators told doctors to halve the dose of a common sleeping pill, for women only. It had been on the market for twenty years. That August, Renard began studying computer programming in Krasnoyarsk.</p>
+        <span class="rd">Read the profile →</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section id="convictions" style="padding-top:56px">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">Convictions</div>
+      <h2>Three ideas behind <em style="color:var(--crimson)">everything she builds.</em></h2>
+    </div>
+    <div class="conv">
+      <div class="cv"><div class="n">01</div><h3>A plan should know which week it is.</h3><p>Energy, hunger, sleep, focus and recovery move with a woman's hormones all month long. A plan that ignores that will fail her one week in four.</p><div class="ev">Women eat about 170 more calories a day before their period, on average (Nutrition Reviews, 2025). Among 32,748 Dutch women, period symptoms cost productivity equal to almost nine working days a year (BMJ Open, 2019).</div></div>
+      <div class="cv"><div class="n">02</div><h3>Women pay for proof, not tracking.</h3><p>Tracking is free on every phone. What women want is an explanation of their own pattern, and a record a doctor can't wave away.</p><div class="ev">Regime's analysis of about 14,000 posts in roughly 80 women's health communities, October 2026.</div></div>
+      <div class="cv"><div class="n">03</div><h3>Trust is something you can check.</h3><p>Sources listed on every guide. Data never sold. Everything exportable, everything deletable. Artificial intelligence never invents a number.</p><div class="ev">Regime's public promises and product design.</div></div>
     </div>
   </div>
 </section>
@@ -181,96 +221,119 @@ h2{font-size:clamp(38px,4.6vw,60px);color:var(--wine)}
 <section class="work" id="work">
   <div class="wrap">
     <div class="head">
-      <h2>What she has built</h2>
-      <p class="lead">Three companies and a book, in the order she made them.</p>
+      <div class="kicker" style="color:var(--lilac)">The work</div>
+      <h2><span class="nw">One for the body.</span> <span class="nw">One for the mind.</span> <em class="nw">One for the heart.</em></h2>
+      <p>Three companies built on the same conviction: the tools we use to understand ourselves, and each other, were designed around the wrong default.</p>
     </div>
-    <div class="tiles">
-      <article class="tile">
-        <div class="stage s-mind">
-          <div class="mark"><img src="images/mindologue-icon.webp" width="36" height="36" alt=""><span>Mindologue</span></div>
-          <img class="shot" src="images/mindologue-app.webp" width="415" height="856" loading="lazy" alt="The Mindologue app welcoming you, with its guide Mell-E">
+    <div class="regime">
+      <div>
+        <div class="kicker" style="color:var(--lilac)">Regime · now welcoming founding members</div>
+        <h3>Health technology that starts from <em>the female body.</em></h3>
+        <p class="lead">Regime reads a woman's cycle, food, sleep and blood tests, and turns them into a plan for the day she is actually having.</p>
+        <div class="feat">
+          <div><b>Sixty seconds a day</b><span>A morning check-in, then today's food, training and focus, each with its reason.</span></div>
+          <div><b>Learns what works for her</b><span>Tomorrow it asks "did it help?", and gets smarter about her, not an average.</span></div>
+          <div><b>Nine life situations</b><span>From the pill and the implant to pregnancy, perimenopause and menopause. Nothing invented.</span></div>
+          <div><b>Supplements and labs</b><span>Upper limits checked, results tracked over time, in plain words.</span></div>
         </div>
-        <div class="tbody">
+        <div class="offer"><a class="btn primary" href="https://regimelongevity.com/">Become a founding member</a><small>Founding price: $19.99 for the first year.<br>Website only, for a limited time.</small></div>
+      </div>
+      <div class="phone"><img src="images/regime-app.webp" alt="The Regime app showing today's plan"></div>
+    </div>
+    <div class="two">
+      <article class="mind">
+        <div class="mind-tx">
+          <div class="mind-brand"><img src="images/mindologue-icon.webp" width="44" height="44" alt=""><span>Mindologue</span></div>
           <h3>For the feelings words can't reach.</h3>
-          <p>Photograph a drawing and receive a reflection on what it may be expressing, with journaling and guided meditation.</p>
-          <p class="why">Diana made it because drawing carried her through her hardest years.</p>
-          <div class="tlinks"><a class="btn" href="https://apps.apple.com/us/app/mindologue-emotional-insight/id6745147570">Get the app</a><a class="txt" href="https://mindologue.com/">Visit mindologue.com</a></div>
+          <p>Photograph a drawing and receive a reflection on what it may be expressing, with journaling and guided meditation. Built on projective psychology and art therapy.</p>
+          <div class="mind-ctas"><a class="mind-btn" href="https://apps.apple.com/us/app/mindologue-emotional-insight/id6745147570">Get the app</a><a class="mind-btn ghost" href="https://mindologue.com/">Learn more</a></div>
         </div>
+        <img class="mind-phone" src="images/mindologue-app.webp" width="415" height="856" loading="lazy" alt="The Mindologue app welcoming you, with its guide Mell-E">
       </article>
-      <article class="tile">
-        <div class="stage s-book">
-          <img class="cover" src="images/book-cover.webp" width="520" height="642" loading="lazy" alt="The black and white cover of Unfolding Your True Self by Diana Renard">
-        </div>
-        <div class="tbody">
+      <article class="book">
+        <img class="book-cover" src="images/book-cover.webp" width="520" height="642" loading="lazy" alt="The black and white cover of Unfolding Your True Self by Diana Renard">
+        <div class="book-tx">
+          <p class="book-over">A practical workbook</p>
           <h3>Unfolding Your True Self</h3>
-          <p>A 30-day workbook of drawing exercises to rebuild confidence and quiet negative self-talk.</p>
-          <p class="why">She wrote it from her own recovery, one exercise at a time.</p>
-          <div class="tlinks"><a class="btn" href="https://www.amazon.com/dp/B0GTFG4XJ1">Order on Amazon</a><a class="txt" href="/freepdf/">Free download</a></div>
+          <p class="book-by">By Diana Renard</p>
+          <p>A 30-day workbook of drawing exercises, born from her own recovery, to rebuild confidence and quiet negative self-talk.</p>
+          <div class="book-ctas"><a class="book-btn" href="https://www.amazon.com/dp/B0GTFG4XJ1">Order on Amazon</a><a class="book-btn ghost" href="/freepdf/">Free download</a></div>
         </div>
       </article>
-      <article class="tile">
-        <div class="stage s-reg">
-          <div class="mark"><b>REGIME</b><small>Longevity</small></div>
-          <img class="shot" src="images/regime-app.webp" width="660" height="1434" loading="lazy" alt="The Regime app showing today's plan">
-        </div>
-        <div class="tbody">
-          <h3>Health technology that starts from the female body.</h3>
-          <p>Regime reads a woman's cycle, food, sleep and blood tests, and turns them into a plan for the day she is actually having. Coming soon to iPhone.</p>
-          <p class="why">"I built Regime Longevity because most health plans are written for a body that stays the same every week. A woman's body doesn't."</p>
-          <div class="tlinks"><a class="btn" href="https://regimelongevity.com/">Join the launch list</a><a class="txt" href="https://regimelongevity.com/founder">Read her note</a></div>
-        </div>
-      </article>
-      <article class="tile">
-        <div class="stage s-nk">
-          <div class="mark"><span>NAPKIN</span></div>
-          <img class="napkin" src="images/napkin.webp" width="900" height="900" loading="lazy" alt="The real paper napkin from Diana's first date: a grinning heart with eyes on stalks and the words I love you.">
-        </div>
-        <div class="tbody">
-          <h3>Is this person right for you?</h3>
-          <p>Ask your date to draw love on a napkin. NAPKIN reads the drawing and shows you who is sitting across the table. Coming soon to iPhone.</p>
-          <p class="why">Born on a first date, when Diana ignored what a napkin drawing showed her and watched it come true.</p>
-          <div class="tlinks"><a class="btn" href="https://napkin.dating/#join">Join the waitlist</a><a class="txt" href="https://napkin.dating/#letter-h">Read her letter</a></div>
-        </div>
-      </article>
+    </div>
+    <article class="nk">
+      <div class="nk-tx">
+        <div class="nk-mark">NAPKIN</div>
+        <p class="nk-kicker">The first-date app, coming soon to iPhone</p>
+        <h3>Is this person <em>right for you?</em></h3>
+        <p class="nk-lede">Ask your date to draw love on a napkin. NAPKIN reads the drawing and shows you who is sitting across the table.</p>
+        <ol class="nk-steps">
+          <li><b>1</b><div><span>At the table</span><h4>Ask for the napkin</h4><p>NAPKIN gives you the line, so it feels like flirting. One minute, one pen.</p></div></li>
+          <li><b>2</b><div><span>On the way home</span><h4>Read who they are</h4><p>What the drawing shows, how they lean in love and what to watch next time.</p></div></li>
+          <li><b>3</b><div><span>After a few dates</span><h4>Get a straight answer</h4><p>Continue, slow down or walk away, with the reasons.</p></div></li>
+        </ol>
+        <div class="nk-cta"><a class="nk-btn" href="https://napkin.dating/#join">Join the waitlist</a><small>Free to start. One email on launch day, nothing else.</small></div>
+      </div>
+      <figure class="nk-fig">
+        <img src="images/napkin.webp" width="900" height="900" loading="lazy" alt="The real paper napkin from Diana's first date: a grinning heart with eyes on stalks and the words I love you.">
+        <figcaption class="nk-slip">
+          <p class="nk-label">The napkin that started it</p>
+          <p class="nk-q">“I had the answer on a napkin. <em>I didn’t listen.”</em></p>
+          <p class="nk-small">A first date, a charming man, one drawing. Everything it showed came true. <a href="https://napkin.dating/#letter-h">Read her letter</a></p>
+        </figcaption>
+      </figure>
+    </article>
+  </div>
+</section>
+
+<section id="research">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">What the evidence says</div>
+      <h2>The gap she is building into.</h2>
+      <p>Numbers she returns to, on stage and in product decisions.</p>
+    </div>
+    <div class="stats">
+      <div class="st"><b>6%</b><p>of more than 5,000 sport and exercise science studies looked at women alone.</p><small>Review published 2021</small></div>
+      <div class="st"><b>6.6</b><p>years: the average time it takes to diagnose endometriosis.</p><small>University of York review, 2024</small></div>
+      <div class="st"><b>86%</b><p>growth in one year of Reddit's largest perimenopause community.</p><small>Regime research, October 2026</small></div>
+      <div class="st"><b>2×</b><p>Reddit's polycystic ovary syndrome community doubled since January 2024.</p><small>Regime research, October 2026</small></div>
     </div>
   </div>
 </section>
 
-<section id="speaking" class="speak">
+<section id="speaking" style="padding-top:24px">
   <div class="wrap">
-    <div class="speak-grid">
-      <figure class="speak-ph"><img src="images/diana-on-stage.webp" width="900" height="1125" loading="lazy" alt="Diana Renard on stage at Mana in Miami, speaking at a podium"></figure>
-      <div>
-        <h2>Invite Diana to speak</h2>
-        <p class="lead">For conferences, podcasts, panels and investors.</p>
-        <ul class="topics">
-          <li><h3>Apps that read people</h3><p>What a drawing, a first date and a monthly cycle show that a questionnaire misses.</p></li>
-          <li><h3>From breakdown to three companies</h3><p>How drawing rebuilt an engineer, and then became her products.</p></li>
-          <li><h3>Drawing the mind</h3><p>Projective psychology, from Rorschach's inkblots to the smartphone.</p></li>
-          <li><h3>The female data gap</h3><p>Why so much health advice was never tested on women, and what that costs every month.</p></li>
-        </ul>
-        <p class="recent">Most recently, she demonstrated Mindologue live at AI Salon Miami, Mana Tech Loft, in August 2026.</p>
-        <div class="ctas"><a class="btn" href="mailto:diana@mindologue.com?subject=Speaking%20invitation">Email Diana</a><a class="btn line" href="images/diana.jpg" download>Download press photo</a></div>
-      </div>
+    <div class="head">
+      <div class="kicker">Speaking and partnerships</div>
+      <h2>Invite Diana to talk about <em style="color:var(--crimson)">what nobody built for women.</em></h2>
+      <p>For conferences, podcasts, clinics, dietitians and investors.</p>
     </div>
+    <div class="talks">
+      <div class="talk"><h3>The female data gap</h3><p>Why so much health advice was never tested on bodies like ours, and what it costs every month.</p></div>
+      <div class="talk"><h3>From breakdown to three companies</h3><p>What an engineer learned rebuilding herself, and then a product.</p></div>
+      <div class="talk"><h3>Health technology women trust</h3><p>Evidence, privacy and the discipline of not overclaiming.</p></div>
+      <div class="talk"><h3>Drawing the mind</h3><p>Projective psychology, from Rorschach to the smartphone.</p></div>
+    </div>
+    <div class="recent"><b>Recently:</b> live demonstration of Mindologue at AI Salon Miami, Mana Tech Loft, August 2026.</div>
     <div class="bios">
-      <div class="bioc"><h3>Short bio</h3><p id="bio1">Diana Renard is an engineer, an author and the founder of three companies: Mindologue, an app that reflects on what your drawings express; Regime, health technology that starts from the female body; and NAPKIN Dating, the first-date app that reads a napkin drawing. She wrote Unfolding Your True Self.</p><button class="copy" data-copy="bio1">Copy bio</button></div>
-      <div class="bioc"><h3>Full bio</h3><p id="bio2">Diana Renard is the founder of Mindologue, Regime and NAPKIN Dating. She studied engineering at Siberian State Aerospace University in Krasnoyarsk, then psychology and art therapy, and is a certified art life coach. During a personal crisis, drawing became her way to understand her own emotions. That practice became her workbook, Unfolding Your True Self, and Mindologue, an app that helps people reflect on what their drawings may express. Regime applies the same thinking to the body: a health plan that adapts to a woman's hormones and life stage every day. NAPKIN Dating began on a first date, with a napkin drawing whose warning she ignored; the app invites a date to draw love on a napkin and shows who is sitting across the table. She designs and builds Regime and NAPKIN herself, and lives in Miami Beach.</p><button class="copy" data-copy="bio2">Copy bio</button></div>
+      <div class="bioc"><div class="kicker">Short bio</div><p id="bio1">Diana Renard is an engineer and the founder of three companies: Regime, health technology that starts from the female body; Mindologue, an emotional insight app; and NAPKIN Dating, the first-date app that reads a napkin drawing. She is the author of Unfolding Your True Self.</p><button class="copy" data-copy="bio1">Copy bio</button></div>
+      <div class="bioc"><div class="kicker">Full bio</div><p id="bio2">Diana Renard is the founder of Regime, Mindologue and NAPKIN Dating. Trained in computer programming at Siberian State Aerospace University, she also studied psychology and art therapy. During a personal crisis, drawing became her way to understand her own emotions, and that practice became her workbook, Unfolding Your True Self, and Mindologue, an app that helps people reflect on what their drawings may express. Her second company, Regime, applies the same thinking to the body: a health plan that adapts to a woman's hormones and life stage every day. Her third, NAPKIN Dating, began on a first date, with a napkin drawing whose warning she ignored: the app invites a date to draw love on a napkin and shows who is sitting across the table. She lives in Miami Beach.</p><button class="copy" data-copy="bio2">Copy bio</button></div>
     </div>
+    <div class="row"><a class="btn primary" href="mailto:diana@mindologue.com?subject=Speaking%20or%20partnership">Email Diana</a><a class="btn light" href="images/diana.jpg" download>Download press photo</a></div>
   </div>
 </section>
 
 <section class="follow">
   <div class="wrap">
-    <div>
-      <h2>Follow her work</h2>
-      <p>New products, talks and the days in between.</p>
-    </div>
-    <div class="ctas"><a class="btn light" href="https://www.instagram.com/diana_renard_vision/">Instagram</a><a class="btn line" href="https://www.linkedin.com/in/dianarenard/">LinkedIn</a></div>
+    <div class="kicker">Follow the build</div>
+    <h2>Regime is being built in public.</h2>
+    <p>The launch, the decisions, the evidence, and what every woman should know about her body this week.</p>
+    <div class="ctas"><a class="btn primary" href="https://www.instagram.com/diana_renard_vision/">Follow on Instagram</a><a class="btn light" href="https://www.linkedin.com/in/dianarenard/">Connect on LinkedIn</a></div>
   </div>
 </section>
 
-<footer><div class="wrap"><span>© 2026 Diana Renard</span><span><a href="/story">Profile</a><a href="https://mindologue.com/">Mindologue</a><a href="https://regimelongevity.com/">Regime</a><a href="https://napkin.dating/">NAPKIN</a><a href="https://www.instagram.com/diana_renard_vision/">Instagram</a><a href="https://www.linkedin.com/in/dianarenard/">LinkedIn</a></span></div></footer>
+<footer><div class="wrap"><span>© 2026 Diana Renard</span><span><a href="/story">Profile</a><a href="https://regimelongevity.com/">Regime</a><a href="https://mindologue.com/">Mindologue</a><a href="https://napkin.dating/">NAPKIN</a><a href="https://www.instagram.com/diana_renard_vision/">Instagram</a><a href="https://www.linkedin.com/in/dianarenard/">LinkedIn</a></span></div></footer>
 
 <script>
 document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var t=document.getElementById(b.dataset.copy).innerText;var done=function(){var o=b.textContent;b.textContent='Copied';setTimeout(function(){b.textContent=o},1600)};if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,done)}else{done()}})});
